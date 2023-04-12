@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "67iW5DP8UBf/fi4NeSOlQ2mO2bOBF15lhKj248StU2Zjd1wF9XAFrtMRIWmLcSDSrBhylm1JtwV14fQKrHXzpw==",
+  "dgSpecHash": "buF1BCwy/osuAdGLnhun7QxYsUloyI3L5BBFcM8LsD2gfqozpkGMtKJrt9dpA0YIIlQuiufpX7cL5p7qkO3PMQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\otavi\\OneDrive\\Área de Trabalho\\VisualStudio\\SallesWebMVC\\SallesWebMVC\\SallesWebMVC.csproj",
+  "projectFilePath": "C:\\Users\\otavi\\OneDrive\\Área de Trabalho\\VisualStudio\\SalesWebMVC\\SallesWebMVC\\SallesWebMVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\otavi\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\otavi\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

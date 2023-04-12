@@ -5,16 +5,16 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using SallesWebMVC.Data;
-using SallesWebMVC.Models;
+using SalesWebMVC.Data;
+using SalesWebMVC.Models;
 
-namespace SallesWebMVC.Controllers
+namespace SalesWebMVC.Controllers
 {
     public class DepartmentsController : Controller
     {
-        private readonly SallesWebMVCContext _context;
+        private readonly SalesWebMVCContext _context;
 
-        public DepartmentsController(SallesWebMVCContext context)
+        public DepartmentsController(SalesWebMVCContext context)
         {
             _context = context;
         }
@@ -24,7 +24,7 @@ namespace SallesWebMVC.Controllers
         {
               return _context.Department != null ? 
                           View(await _context.Department.ToListAsync()) :
-                          Problem("Entity set 'SallesWebMVCContext.Department'  is null.");
+                          Problem("Entity set 'SalesWebMVCContext.Department'  is null.");
         }
 
         // GET: Departments/Details/5

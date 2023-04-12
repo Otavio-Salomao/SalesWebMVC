@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\otavi\\OneDrive\\Área de Trabalho\\VisualStudio\\SallesWebMVC\\SallesWebMVC\\SallesWebMVC.csproj": {}
+    "C:\\Users\\otavi\\OneDrive\\Área de Trabalho\\VisualStudio\\SalesWebMVC\\SallesWebMVC\\SallesWebMVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\otavi\\OneDrive\\Área de Trabalho\\VisualStudio\\SallesWebMVC\\SallesWebMVC\\SallesWebMVC.csproj": {
+    "C:\\Users\\otavi\\OneDrive\\Área de Trabalho\\VisualStudio\\SalesWebMVC\\SallesWebMVC\\SallesWebMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\otavi\\OneDrive\\Área de Trabalho\\VisualStudio\\SallesWebMVC\\SallesWebMVC\\SallesWebMVC.csproj",
+        "projectUniqueName": "C:\\Users\\otavi\\OneDrive\\Área de Trabalho\\VisualStudio\\SalesWebMVC\\SallesWebMVC\\SallesWebMVC.csproj",
         "projectName": "SallesWebMVC",
-        "projectPath": "C:\\Users\\otavi\\OneDrive\\Área de Trabalho\\VisualStudio\\SallesWebMVC\\SallesWebMVC\\SallesWebMVC.csproj",
+        "projectPath": "C:\\Users\\otavi\\OneDrive\\Área de Trabalho\\VisualStudio\\SalesWebMVC\\SallesWebMVC\\SallesWebMVC.csproj",
         "packagesPath": "C:\\Users\\otavi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\otavi\\OneDrive\\Área de Trabalho\\VisualStudio\\SallesWebMVC\\SallesWebMVC\\obj\\",
+        "outputPath": "C:\\Users\\otavi\\OneDrive\\Área de Trabalho\\VisualStudio\\SalesWebMVC\\SallesWebMVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
