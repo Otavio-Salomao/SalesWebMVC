@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
+      "Id": "C:\\Users\\otavi\\source\\repos\\SalesWebMVC\\SallesWebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-flatly.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-flatly.css"
+    },
+    {
       "Id": "C:\\Users\\otavi\\source\\repos\\SalesWebMVC\\SallesWebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
