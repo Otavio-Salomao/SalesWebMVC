@@ -1,4 +1,9 @@
-﻿namespace SalesWebMVC
+﻿using Microsoft.EntityFrameworkCore;
+using SalesWebMVC.Data;
+using Pomelo.EntityFrameworkCore.MySql.Infrastructure;
+using Pomelo.EntityFrameworkCore.MySql.Internal;
+
+namespace SalesWebMVC
 {
     public class Startup
     {
@@ -14,6 +19,11 @@
         {
             // Add services to the container.
             services.AddControllersWithViews();
+            services.AddDbContext<SalesWebMVCContext>(
+     options => options.UseSqlServer(Configuration.GetConnectionString("SalesWebMVCContext")));
+
+
+
         }
 
         public void Configure(WebApplication app, IWebHostEnvironment environment)
@@ -22,13 +32,13 @@
             if (!app.Environment.IsDevelopment())
             {
                 app.UseExceptionHandler("/Home/Error");
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+              
                 app.UseHsts();
             }
 
                 app.UseHttpsRedirection();
                 app.UseStaticFiles();
-
+                
                 app.UseRouting();
 
                 app.UseAuthorization();
